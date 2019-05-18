@@ -4,7 +4,8 @@
  * @author Hajcskó Patrik
  * @version 1.0
  */
- 
+
+ //A szám átírássával lehetséges változtatni a felületen megjelenű négyzetrácsok számát
  //cellák száma
 var rows = 1000;
  //oszlopok száma
