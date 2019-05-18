@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game of Life</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="author" content="Hajcskó Patrik">
+    </head>
+    <body>
+        <div class="nav">
+        <h1>Game Of Life</h1>
+        <br>
+        <div class="controls">
+        <button type="button" id="start"><span>Start</span></button>
+        <button type="button" id="clear"><span>Clear</span></button>
+            <h3>Szabályok</h3>
+            <p>
+             A sejt túléli a kört, ha két vagy három szomszédja van.<br>
+             A sejt elpusztul, ha kettőnél kevesebb (elszigetelődés), vagy háromnál több (túlnépesedés) szomszédja van. <br>
+             Új sejt születik minden olyan cellában, melynek környezetében pontosan három sejt található.<br>
+            </p>  
+        </div>
+        </div>
+        <br>
+        <div id="gridContainer"></div>
+        <script src="game.js"></script>
+    </body>
+</html>

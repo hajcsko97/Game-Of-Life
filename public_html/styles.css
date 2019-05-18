@@ -1,0 +1,76 @@
+html{
+	height: 100%;
+}
+body {
+    background-color: #545454;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+.nav{
+    position: fixed;
+    z-index: 9999;
+    background-color: #545454;
+    top: 0px;
+    
+}
+h1{
+    color: #c2ffa8;
+    font-style: oblique;
+    font-size: 48px;
+    
+        
+}
+
+#gridContainer {
+    padding-bottom: 10px;
+    display: block;
+}
+
+
+table {
+    background-color: #c2ffa8;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    border: 1px solid #7ed957;
+    width: 15px;
+    height: 15px;
+}
+
+#start,
+#clear {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: oblique;
+    background: linear-gradient(
+        to bottom right,
+        #c2ffa8, #545454);
+}
+
+td.sejtpusztulas {
+    background-color: transparent;
+}
+
+td.osztodas {
+    background-color: #545454;
+    border-radius: 15px;
+}
+
+h3{
+     color: #c2ffa8;
+     font-style: oblique;
+     font-size: 21px;
+}
+
+p{
+   color: #c2ffa8;
+   font-size: 18px;
+}
