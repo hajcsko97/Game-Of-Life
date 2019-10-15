@@ -9,7 +9,7 @@
  //cellák száma
 var rows = 1000;
  //oszlopok száma
-var cols = 1000;
+var cols = 100;
 
 var playing = false;
 
